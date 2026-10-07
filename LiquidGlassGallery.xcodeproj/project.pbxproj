@@ -1,0 +1,82 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C155CEF7F68A03E3E57FCDF5 /* DemoComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C70DA555F399A8B28D5C750 /* DemoComponents.swift */; };
+		E11030640FCC0E9D6783BF78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD30DB9EA26ED3AACE1176 /* ContentView.swift */; };
+		55DCE19BA89FD7F3D9A0E68D /* ExampleCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753ADA4A3025552E7D42E0C /* ExampleCatalog.swift */; };
+		BA1979E522EDBB8221A8F125 /* ExampleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC8DBB73A9B8BF73AE97E6A /* ExampleDetailView.swift */; };
+		3D31BEF30DC5E6EB60BAC613 /* AccessibilityExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2953F23423A91390478C3 /* AccessibilityExample.swift */; };
+		F47FDA8DCFC0FF48C8E97CEC /* CoreTextGlassExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C7ED555FAC909BDFD37CD /* CoreTextGlassExample.swift */; };
+		E149D1A9EF45AD4797209B2B /* ExampleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75100EF8639F41C8D3B241CD /* ExampleScreen.swift */; };
+		C8275C852D8448EBE5CAC962 /* ShapesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D8B42FBF572C0F8A7EFCD2 /* ShapesExample.swift */; };
+		4EF907BD5CD823533D3B9AA2 /* TextAndIconsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F7D8B5E273FAE21785F48 /* TextAndIconsExample.swift */; };
+		5C1CF416758F7C865CA8444C /* TintedInteractiveExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B86C8B0BCFAE5E4DB5217 /* TintedInteractiveExample.swift */; };
+		8E64209794E0C6466F33F2A1 /* VariantsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B585D96E2D86B5B83BF4E22 /* VariantsExample.swift */; };
+		9A60C853218729BA179A4CCC /* GalleryLaunchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D96C366410810ED23CB6D /* GalleryLaunchConfiguration.swift */; };
+		1F5D22A4334BD5426BEB4F9D /* LiquidGlassGalleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E36FA030181D045F678A8D /* LiquidGlassGalleryApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C70DA555F399A8B28D5C750 /* DemoComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoComponents.swift; sourceTree = "<group>"; };
+		BBAD30DB9EA26ED3AACE1176 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D753ADA4A3025552E7D42E0C /* ExampleCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCatalog.swift; sourceTree = "<group>"; };
+		7BC8DBB73A9B8BF73AE97E6A /* ExampleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDetailView.swift; sourceTree = "<group>"; };
+		50E2953F23423A91390478C3 /* AccessibilityExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityExample.swift; sourceTree = "<group>"; };
+		059C7ED555FAC909BDFD37CD /* CoreTextGlassExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTextGlassExample.swift; sourceTree = "<group>"; };
+		75100EF8639F41C8D3B241CD /* ExampleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleScreen.swift; sourceTree = "<group>"; };
+		A5D8B42FBF572C0F8A7EFCD2 /* ShapesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesExample.swift; sourceTree = "<group>"; };
+		233F7D8B5E273FAE21785F48 /* TextAndIconsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndIconsExample.swift; sourceTree = "<group>"; };
+		AB5B86C8B0BCFAE5E4DB5217 /* TintedInteractiveExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintedInteractiveExample.swift; sourceTree = "<group>"; };
+		0B585D96E2D86B5B83BF4E22 /* VariantsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantsExample.swift; sourceTree = "<group>"; };
+		468D96C366410810ED23CB6D /* GalleryLaunchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryLaunchConfiguration.swift; sourceTree = "<group>"; };
+		72E36FA030181D045F678A8D /* LiquidGlassGalleryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidGlassGalleryApp.swift; sourceTree = "<group>"; };
+		C10000000000000000000001 /* LiquidGlassGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidGlassGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10000000000000000000001 = {isa = PBXGroup; children = (E10000000000000000000002 /* LiquidGlassGallery */, E10000000000000000000003 /* Products */, ); sourceTree = "<group>"; };
+		E10000000000000000000002 /* LiquidGlassGallery */ = {isa = PBXGroup; path = LiquidGlassGallery; sourceTree = "<group>"; children = (BBAD30DB9EA26ED3AACE1176 /* ContentView.swift */, D753ADA4A3025552E7D42E0C /* ExampleCatalog.swift */, 7BC8DBB73A9B8BF73AE97E6A /* ExampleDetailView.swift */, 468D96C366410810ED23CB6D /* GalleryLaunchConfiguration.swift */, 72E36FA030181D045F678A8D /* LiquidGlassGalleryApp.swift */, E20000000000000000000001 /* Components */, E20000000000000000000002 /* Examples */, ); };
+		E10000000000000000000003 /* Products */ = {isa = PBXGroup; name = Products; sourceTree = "<group>"; children = (C10000000000000000000001 /* LiquidGlassGallery.app */, ); };
+		E20000000000000000000001 /* Components */ = {isa = PBXGroup; path = Components; sourceTree = "<group>"; children = (4C70DA555F399A8B28D5C750 /* DemoComponents.swift */, ); };
+		E20000000000000000000002 /* Examples */ = {isa = PBXGroup; path = Examples; sourceTree = "<group>"; children = (50E2953F23423A91390478C3 /* AccessibilityExample.swift */, 059C7ED555FAC909BDFD37CD /* CoreTextGlassExample.swift */, 75100EF8639F41C8D3B241CD /* ExampleScreen.swift */, A5D8B42FBF572C0F8A7EFCD2 /* ShapesExample.swift */, 233F7D8B5E273FAE21785F48 /* TextAndIconsExample.swift */, AB5B86C8B0BCFAE5E4DB5217 /* TintedInteractiveExample.swift */, 0B585D96E2D86B5B83BF4E22 /* VariantsExample.swift */, ); };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10000000000000000000001 /* LiquidGlassGallery */ = {isa = PBXNativeTarget; buildConfigurationList = G10000000000000000000002 /* Build configuration list for PBXNativeTarget "LiquidGlassGallery" */; buildPhases = (H10000000000000000000001 /* Sources */, D10000000000000000000001 /* Frameworks */, I10000000000000000000001 /* Resources */, ); buildRules = (); dependencies = (); name = LiquidGlassGallery; productName = LiquidGlassGallery; productReference = C10000000000000000000001 /* LiquidGlassGallery.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		J10000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 2700; TargetAttributes = {F10000000000000000000001 = {CreatedOnToolsVersion = 27.0; }; }; }; buildConfigurationList = G10000000000000000000001 /* Build configuration list for PBXProject "LiquidGlassGallery" */; compatibilityVersion = "Xcode 16.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, ); mainGroup = E10000000000000000000001; productRefGroup = E10000000000000000000003 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (F10000000000000000000001 /* LiquidGlassGallery */, ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		I10000000000000000000001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		H10000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (C155CEF7F68A03E3E57FCDF5 /* DemoComponents.swift in Sources */, E11030640FCC0E9D6783BF78 /* ContentView.swift in Sources */, 55DCE19BA89FD7F3D9A0E68D /* ExampleCatalog.swift in Sources */, BA1979E522EDBB8221A8F125 /* ExampleDetailView.swift in Sources */, 3D31BEF30DC5E6EB60BAC613 /* AccessibilityExample.swift in Sources */, F47FDA8DCFC0FF48C8E97CEC /* CoreTextGlassExample.swift in Sources */, E149D1A9EF45AD4797209B2B /* ExampleScreen.swift in Sources */, C8275C852D8448EBE5CAC962 /* ShapesExample.swift in Sources */, 4EF907BD5CD823533D3B9AA2 /* TextAndIconsExample.swift in Sources */, 5C1CF416758F7C865CA8444C /* TintedInteractiveExample.swift in Sources */, 8E64209794E0C6466F33F2A1 /* VariantsExample.swift in Sources */, 9A60C853218729BA179A4CCC /* GalleryLaunchConfiguration.swift in Sources */, 1F5D22A4334BD5426BEB4F9D /* LiquidGlassGalleryApp.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		K10000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 26.0; SDKROOT = iphoneos; SWIFT_VERSION = 6.0; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		K10000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 26.0; SDKROOT = iphoneos; SWIFT_VERSION = 6.0; }; name = Release; };
+		K10000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Liquid Glass Gallery"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 26.0; PRODUCT_BUNDLE_IDENTIFIER = com.codex.LiquidGlassGallery; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		K10000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Liquid Glass Gallery"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 26.0; PRODUCT_BUNDLE_IDENTIFIER = com.codex.LiquidGlassGallery; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G10000000000000000000001 /* Build configuration list for PBXProject "LiquidGlassGallery" */ = {isa = XCConfigurationList; buildConfigurations = (K10000000000000000000001 /* Debug */, K10000000000000000000002 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		G10000000000000000000002 /* Build configuration list for PBXNativeTarget "LiquidGlassGallery" */ = {isa = XCConfigurationList; buildConfigurations = (K10000000000000000000003 /* Debug */, K10000000000000000000004 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = J10000000000000000000001 /* Project object */;
+}
