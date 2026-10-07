@@ -18,9 +18,15 @@ A sample app with 33 interactive examples of Liquid Glass in SwiftUI, including 
 
 From left to right, top to bottom: the example catalog, glass variants, CoreText lettering, container blending, background contrast, and light/dark adaptation. Select a screenshot to view it at full size.
 
-## Run the app
+## Requirements
 
-Requires **Xcode 26 or later** and **iOS or iPadOS 26 or later**. There are no external dependencies.
+- **Xcode:** 26 or later
+- **Deployment target:** iOS 26 / iPadOS 26 or later
+- **Swift language mode:** Swift 6
+- **External dependencies:** None
+- **Signing:** No signing setup is needed for the simulator. For a physical device, select your development team and a unique bundle identifier under Signing & Capabilities.
+
+## Run the app
 
 ```sh
 git clone https://github.com/pchelnikov/liquid-glass-examples.git
@@ -28,7 +34,7 @@ cd liquid-glass-examples
 open LiquidGlassGallery.xcodeproj
 ```
 
-Select the **LiquidGlassGallery** scheme, choose an iPhone or iPad simulator, and run. To run on a physical device, select your development team and a unique bundle identifier under Signing & Capabilities.
+Select the **LiquidGlassGallery** scheme, choose an iPhone or iPad simulator, and run.
 
 The catalog adapts from a navigation stack on iPhone to a sidebar and detail view on iPad. Native navigation, tab, and search examples use **Open demo** to present their own full-screen interface. Select **Close** to return to the catalog.
 
