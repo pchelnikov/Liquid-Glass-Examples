@@ -5,17 +5,18 @@ A sample app with 33 interactive examples of Liquid Glass in SwiftUI, including 
 ## Screenshots
 
 <p>
+  <a href="Documentation/Images/catalog.png"><img src="Documentation/Images/catalog.png" width="240" alt="Example catalog"></a>
   <a href="Documentation/Images/glass-variants.png"><img src="Documentation/Images/glass-variants.png" width="240" alt="Glass variants"></a>
   <a href="Documentation/Images/coretext-lettering.png"><img src="Documentation/Images/coretext-lettering.png" width="240" alt="CoreText glass lettering"></a>
-  <a href="Documentation/Images/glass-container.png"><img src="Documentation/Images/glass-container.png" width="240" alt="GlassEffectContainer"></a>
 </p>
 
 <p>
+  <a href="Documentation/Images/glass-container.png"><img src="Documentation/Images/glass-container.png" width="240" alt="GlassEffectContainer"></a>
   <a href="Documentation/Images/background-contrast.png"><img src="Documentation/Images/background-contrast.png" width="240" alt="Busy backgrounds and contrast"></a>
   <a href="Documentation/Images/light-dark.png"><img src="Documentation/Images/light-dark.png" width="240" alt="Light and dark adaptation"></a>
 </p>
 
-From left to right: glass variants, CoreText lettering, container blending, background contrast, and light/dark adaptation. Select a screenshot to view it at full size.
+From left to right, top to bottom: the example catalog, glass variants, CoreText lettering, container blending, background contrast, and light/dark adaptation. Select a screenshot to view it at full size.
 
 ## Run the app
 
