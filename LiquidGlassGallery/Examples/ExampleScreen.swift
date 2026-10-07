@@ -7,6 +7,7 @@ struct ExampleScreen: View {
   var body: some View {
     switch example {
     case .expandablePlayer: ExpandablePlayerExample()
+    case .scrollEdgeDock: ScrollEdgeDockExample()
     case .variants: VariantsExample()
     case .shapes: ShapesExample()
     case .tintedInteractive: TintedInteractiveExample()
@@ -16,12 +17,24 @@ struct ExampleScreen: View {
     case .morphing: MorphingExample()
     case .unions: UnionsExample()
     case .transitions: TransitionsExample()
+    case .buttonStyles: ButtonStylesExample()
+    case .toolbars: SystemDemoLauncher(title: example.title) { ToolbarExample() }
+    case .tabs: SystemDemoLauncher(title: example.title) { TabsExample() }
+    case .search: SystemDemoLauncher(title: example.title) { SearchExample() }
+    case .presentations: PresentationsExample()
+    case .splitView: SystemDemoLauncher(title: example.title) { SplitViewExample() }
+    case .appComposition: SystemDemoLauncher(title: example.title) { AppCompositionExample() }
     case .floatingActions: FloatingActionsExample()
     case .symbolReplacement: SymbolReplacementExample()
+    case .customNavigation: CustomNavigationExample()
     case .gestureIntegration: GestureIntegrationExample()
+    case .uikitIntegration: UIKitIntegrationExample()
     case .coreTextGlass: CoreTextGlassExample()
+    case .morphingSheet: SystemDemoLauncher(title: example.title) { MorphingSheetExample() }
+    case .glassSettingsSheet: GlassSettingsSheetExample()
     case .parallaxClusters: ParallaxClustersExample()
     case .glassBadges: GlassBadgesExample()
+    case .photoStudio: PhotoStudioExample()
     }
   }
 }
