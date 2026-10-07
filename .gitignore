@@ -60,3 +60,12 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Local build and editor artifacts
+.DS_Store
+DerivedData/
+build/
+*.xcresult
+*.xcuserstate
+.mobilebuildmcp/
+.xcodebuildmcp/
