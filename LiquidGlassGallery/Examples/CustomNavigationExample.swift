@@ -38,7 +38,6 @@ struct CustomNavigationExample: View {
     }
 
     private enum Destination: String, CaseIterable, Identifiable {
-
         case photos = "Photos"
         case map = "Map"
         case notes = "Notes"

@@ -2,7 +2,6 @@ import Foundation
 
 /// Debug-only entry points make individual examples reproducible during UI checks.
 enum GalleryLaunchConfiguration {
-
     static var presentsDemo: Bool {
         #if DEBUG
             ProcessInfo.processInfo.arguments.contains("--present-demo")

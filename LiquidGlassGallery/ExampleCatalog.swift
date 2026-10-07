@@ -1,7 +1,6 @@
 import SwiftUI
 
 enum ExampleGroup: String, CaseIterable, Identifiable {
-
     case foundations = "Foundations"
     case composition = "Composition & Motion"
     case systemUI = "System UI"
@@ -11,7 +10,6 @@ enum ExampleGroup: String, CaseIterable, Identifiable {
 }
 
 enum ExampleID: String, CaseIterable, Identifiable {
-
     case expandablePlayer, scrollEdgeDock
     case variants, shapes, tintedInteractive, textAndIcons, accessibility
     case containers, morphing, unions, transitions

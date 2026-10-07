@@ -33,7 +33,6 @@ struct GlassBadgesExample: View {
 }
 
 private enum Badge: String, CaseIterable, Identifiable {
-
     case peakFinder = "Peak finder"
     case earlyRiser = "Early riser"
     case trailKeeper = "Trail keeper"

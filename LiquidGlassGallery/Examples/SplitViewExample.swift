@@ -110,13 +110,11 @@ private struct PlaceDetailView: View {
 }
 
 private enum CompactSplitRoute: Hashable {
-
     case place(String)
     case section(place: String, section: SplitViewSection)
 }
 
 private enum SplitViewSection: String, CaseIterable, Identifiable {
-
     case overview = "Overview"
     case photos = "Photos"
     case map = "Map"
