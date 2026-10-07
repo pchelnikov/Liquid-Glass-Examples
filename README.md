@@ -29,8 +29,8 @@ From left to right, top to bottom: the example catalog, glass variants, CoreText
 ## Run the app
 
 ```sh
-git clone https://github.com/pchelnikov/liquid-glass-examples.git
-cd liquid-glass-examples
+git clone https://github.com/pchelnikov/Liquid-Glass-Examples.git
+cd Liquid-Glass-Examples
 open LiquidGlassGallery.xcodeproj
 ```
 
