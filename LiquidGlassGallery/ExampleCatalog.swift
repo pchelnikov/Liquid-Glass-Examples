@@ -4,40 +4,21 @@ enum ExampleGroup: String, CaseIterable, Identifiable {
   case foundations = "Foundations"
   case composition = "Composition & Motion"
   case systemUI = "System UI"
+  case refinement = "Adaptation & Refinement"
 
   var id: String { rawValue }
 }
 
 enum ExampleID: String, CaseIterable, Identifiable {
-  case variants
-  case shapes
-  case tintedInteractive
-  case textAndIcons
-  case accessibility
+  case expandablePlayer, scrollEdgeDock
+  case variants, shapes, tintedInteractive, textAndIcons, accessibility
+  case containers, morphing, unions, transitions
+  case buttonStyles, toolbars, tabs, search, presentations, splitView
+  case backgroundExtension, contrast, appComposition
+  case floatingActions, symbolReplacement, dynamicAdaptation, customNavigation
+  case gestureIntegration, performancePatterns, uikitIntegration
   case coreTextGlass
-  case expandablePlayer
-  case containers
-  case morphing
-  case unions
-  case transitions
-  case floatingActions
-  case symbolReplacement
-  case gestureIntegration
-  case parallaxClusters
-  case glassBadges
-  case scrollEdgeDock
-  case buttonStyles
-  case toolbars
-  case tabs
-  case search
-  case presentations
-  case splitView
-  case appComposition
-  case customNavigation
-  case uikitIntegration
-  case morphingSheet
-  case glassSettingsSheet
-  case photoStudio
+  case morphingSheet, glassSettingsSheet, parallaxClusters, glassBadges, photoStudio
 
   var id: String { rawValue }
 
@@ -60,11 +41,15 @@ enum ExampleID: String, CaseIterable, Identifiable {
     case .search: "Search"
     case .presentations: "Sheets, menus & alerts"
     case .splitView: "iPad split view"
+    case .backgroundExtension: "Background extension"
+    case .contrast: "Busy backgrounds & contrast"
     case .appComposition: "Complete app composition"
     case .floatingActions: "Floating action cluster"
     case .symbolReplacement: "Symbol replacement"
+    case .dynamicAdaptation: "Light & dark adaptation"
     case .customNavigation: "Custom glass navigation"
     case .gestureIntegration: "Gesture integration"
+    case .performancePatterns: "Rendering composition"
     case .uikitIntegration: "UIKit integration"
     case .coreTextGlass: "CoreText glass lettering"
     case .morphingSheet: "Morphing sheet presentation"
@@ -79,10 +64,16 @@ enum ExampleID: String, CaseIterable, Identifiable {
     switch self {
     case .variants, .shapes, .tintedInteractive, .textAndIcons, .accessibility, .coreTextGlass:
       .foundations
-    case .expandablePlayer, .containers, .morphing, .unions, .transitions, .floatingActions, .symbolReplacement, .gestureIntegration, .parallaxClusters, .glassBadges:
+    case .expandablePlayer, .containers, .morphing, .unions, .transitions, .floatingActions,
+      .symbolReplacement,
+      .gestureIntegration, .parallaxClusters, .glassBadges:
       .composition
-    case .scrollEdgeDock, .buttonStyles, .toolbars, .tabs, .search, .presentations, .splitView, .appComposition, .customNavigation, .uikitIntegration, .morphingSheet, .glassSettingsSheet, .photoStudio:
+    case .scrollEdgeDock, .buttonStyles, .toolbars, .tabs, .search, .presentations, .splitView,
+      .appComposition,
+      .customNavigation, .uikitIntegration, .morphingSheet, .glassSettingsSheet, .photoStudio:
       .systemUI
+    case .backgroundExtension, .contrast, .dynamicAdaptation, .performancePatterns:
+      .refinement
     }
   }
 
@@ -105,11 +96,15 @@ enum ExampleID: String, CaseIterable, Identifiable {
     case .search: "magnifyingglass"
     case .presentations: "rectangle.center.inset.filled"
     case .splitView: "rectangle.split.2x1"
+    case .backgroundExtension: "arrow.up.left.and.arrow.down.right"
+    case .contrast: "circle.lefthalf.striped.horizontal"
     case .appComposition: "square.grid.2x2"
     case .floatingActions: "plus.circle"
     case .symbolReplacement: "heart"
+    case .dynamicAdaptation: "sun.max"
     case .customNavigation: "arrow.left.arrow.right"
     case .gestureIntegration: "hand.draw"
+    case .performancePatterns: "speedometer"
     case .uikitIntegration: "swift"
     case .coreTextGlass: "textformat.abc"
     case .morphingSheet: "rectangle.bottomhalf.inset.filled"
@@ -142,13 +137,19 @@ enum ExampleID: String, CaseIterable, Identifiable {
     case .search: "See search integrated with a navigation stack and system toolbar."
     case .presentations: "Present native sheets, menus, alerts, and confirmation dialogs."
     case .splitView: "Compare the three-column iPad layout with a compact navigation flow."
+    case .backgroundExtension: "Extend edge content into the available safe-area region."
+    case .contrast: "Compare glass legibility over calm and visually busy content."
     case .appComposition:
       "Combine navigation, tabs, badges, search, and an accessory in one small app."
     case .floatingActions: "Build a compact floating action cluster from related glass controls."
     case .symbolReplacement: "Animate a changing symbol with the system replacement transition."
+    case .dynamicAdaptation:
+      "Compare glass over light and dark scenes and observe automatic contrast adaptation."
     case .customNavigation: "Use glass as a floating navigation and action layer over content."
     case .gestureIntegration:
       "Move a glass control with a gesture while keeping interaction attached to the control."
+    case .performancePatterns:
+      "Compare individual glassEffect modifiers with a shared GlassEffectContainer."
     case .uikitIntegration: "Use UIKit glass effect views alongside SwiftUI examples."
     case .coreTextGlass: "Turn CoreText glyph outlines into custom glass lettering."
     case .morphingSheet: "Morph a toolbar control into a native partial-height sheet."

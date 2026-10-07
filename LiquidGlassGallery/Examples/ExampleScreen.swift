@@ -23,11 +23,16 @@ struct ExampleScreen: View {
     case .search: SystemDemoLauncher(title: example.title) { SearchExample() }
     case .presentations: PresentationsExample()
     case .splitView: SystemDemoLauncher(title: example.title) { SplitViewExample() }
+    case .backgroundExtension:
+      SystemDemoLauncher(title: example.title) { BackgroundExtensionExample() }
+    case .contrast: ContrastExample()
     case .appComposition: SystemDemoLauncher(title: example.title) { AppCompositionExample() }
     case .floatingActions: FloatingActionsExample()
     case .symbolReplacement: SymbolReplacementExample()
+    case .dynamicAdaptation: DynamicAdaptationExample()
     case .customNavigation: CustomNavigationExample()
     case .gestureIntegration: GestureIntegrationExample()
+    case .performancePatterns: RenderingCompositionExample()
     case .uikitIntegration: UIKitIntegrationExample()
     case .coreTextGlass: CoreTextGlassExample()
     case .morphingSheet: SystemDemoLauncher(title: example.title) { MorphingSheetExample() }
